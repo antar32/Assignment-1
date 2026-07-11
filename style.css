@@ -286,6 +286,7 @@ nav img {
     color: #0D1B2A;
 }
 
+
 footer {
     background-color: #0D1B2A;
     padding: 60px 0 30px;
@@ -348,3 +349,558 @@ footer h3 {
     text-align: center;
     padding: 10px 0;
 }
+
+/* =========================
+      PASSPORT SECTION
+========================= */
+
+.passport{
+
+    max-width:1400px;
+    margin:auto;
+    padding:80px 20px;
+
+}
+
+.passport-header{
+
+    text-align:center;
+    margin-bottom:60px;
+
+}
+
+.passport-badge{
+
+    display:inline-flex;
+    align-items:center;
+    gap:8px;
+
+    background:#EEF4FF;
+
+    color:#2563EB;
+
+    padding:10px 20px;
+
+    border-radius:999px;
+
+    font-size:14px;
+    font-weight:600;
+
+    margin-bottom:25px;
+
+}
+
+.passport-badge i{
+
+    color:#F4B400;
+
+}
+
+.passport-header h2{
+
+    font-size:60px;
+    font-weight:800;
+
+    color:#111827;
+
+    margin-bottom:20px;
+
+}
+
+.passport-header span{
+
+    color:#2563EB;
+
+}
+
+.passport-header p{
+
+    font-size:18px;
+    color:#64748B;
+
+    line-height:1.7;
+
+}
+
+
+.passport-cards{
+
+    display:grid;
+
+    grid-template-columns:repeat(auto-fit,minmax(240px,1fr));
+
+    gap:24px;
+
+}
+
+.passport-card{
+
+    background:#fff;
+
+    border:1px solid #E5E7EB;
+
+    border-radius:20px;
+
+    padding:30px;
+
+    display:flex;
+
+    flex-direction:column;
+
+    min-height:430px;
+
+    transition:.35s;
+
+}
+
+.passport-card:hover{
+
+    transform:translateY(-8px);
+
+    box-shadow:0 20px 45px rgba(37,99,235,.15);
+
+}
+
+.icon-circle{
+
+    width:90px;
+
+    height:90px;
+
+    border-radius:50%;
+
+    background:#E8F8EC;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    margin:0 auto 25px;
+
+}
+
+.icon-circle i{
+
+    font-size:40px;
+
+    color:#16A34A;
+
+}
+
+
+.fullstack-icon{
+
+    background:#EAF2FF;
+
+}
+
+.fullstack-icon i{
+
+    color:#2563EB;
+
+}
+
+.cloud-icon{
+
+    background:#FFF7D6;
+
+}
+
+.cloud-icon i{
+
+    color:#F4B400;
+
+}
+
+.keynote-icon{
+
+    background:#FFF1E8;
+
+}
+
+.keynote-icon i{
+
+    color:#EA580C;
+
+}
+
+.networking-icon{
+
+    background:#FCE7F3;
+
+}
+
+.networking-icon i{
+
+    color:#DB2777;
+
+}
+
+.passport-card h3{
+
+    font-size:30px;
+
+    text-align:center;
+
+    margin-bottom:20px;
+
+    color:#0F172A;
+
+}
+
+.card-description{
+
+    text-align:center;
+
+    color:#64748B;
+
+    line-height:1.8;
+
+    font-size:17px;
+
+    min-height:120px;
+
+}
+
+.stamp{
+
+    margin-top:auto;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    gap:10px;
+
+    padding:15px;
+
+    border-radius:12px;
+
+    font-size:16px;
+
+    font-weight:600;
+
+}
+
+.stamp i{
+
+    font-size:20px;
+
+}
+
+.collected{
+
+    background:#ECFDF5;
+
+    color:#16A34A;
+
+}
+
+.pending{
+
+    background:#F3F4F6;
+
+    color:#6B7280;
+
+}
+
+
+@media (max-width:1200px){
+
+.passport-cards{
+
+grid-template-columns:repeat(3,1fr);
+
+}
+
+}
+
+@media (max-width:768px){
+
+.passport-header h2{
+
+font-size:42px;
+
+}
+
+.passport-cards{
+
+grid-template-columns:1fr;
+
+}
+
+}
+
+/* Bottom Cards */
+
+.bottom-cards{
+
+display:grid;
+
+grid-template-columns:1fr 1fr;
+
+gap:24px;
+
+margin-top:40px;
+
+}
+
+
+/* Common Card */
+
+.progress-card,
+.reward-card{
+
+background:#fff;
+
+border:1px solid #E5E7EB;
+
+border-radius:20px;
+
+padding:35px;
+
+box-shadow:0 10px 25px rgba(0,0,0,.05);
+
+}
+
+
+/* Progress */
+
+.progress-card h2{
+
+font-size:30px;
+
+margin-bottom:30px;
+
+}
+
+.progress-wrapper{
+
+display:flex;
+
+align-items:center;
+
+gap:15px;
+
+margin-bottom:35px;
+
+}
+
+.progress-bar{
+
+flex:1;
+
+height:14px;
+
+background:#E5E7EB;
+
+border-radius:50px;
+
+overflow:hidden;
+
+}
+
+.progress-fill{
+
+width:60%;
+
+height:100%;
+
+background:#2563EB;
+
+border-radius:50px;
+
+}
+
+.progress-percent{
+
+font-size:30px;
+
+font-weight:700;
+
+color:#2563EB;
+
+}
+
+.progress-info{
+
+display:flex;
+
+align-items:center;
+
+gap:20px;
+
+}
+
+.progress-icon{
+
+width:70px;
+
+height:70px;
+
+border-radius:50%;
+
+background:#EEF4FF;
+
+display:flex;
+
+justify-content:center;
+
+align-items:center;
+
+}
+
+.progress-icon i{
+
+font-size:30px;
+
+color:#2563EB;
+
+}
+
+
+/* Reward */
+
+.reward-card h2{
+
+display:flex;
+
+align-items:center;
+
+gap:12px;
+
+font-size:30px;
+
+margin-bottom:12px;
+
+}
+
+.reward-card h2 i{
+
+color:#F4B400;
+
+}
+
+.reward-card>p{
+
+margin-bottom:35px;
+
+color:#64748B;
+
+}
+
+.reward-items{
+
+display:flex;
+
+justify-content:space-between;
+
+gap:20px;
+
+text-align:center;
+
+}
+
+.reward-item{
+
+flex:1;
+
+}
+
+.reward-icon{
+
+width:70px;
+
+height:70px;
+
+border-radius:50%;
+
+background:#EEF4FF;
+
+display:flex;
+
+justify-content:center;
+
+align-items:center;
+
+margin:0 auto 15px;
+
+}
+
+.reward-icon i{
+
+font-size:28px;
+
+color:#2563EB;
+
+}
+
+.reward-item h4{
+
+font-size:18px;
+
+line-height:1.5;
+
+}
+
+
+/* CTA */
+
+.passport-button{
+
+text-align:center;
+
+margin-top:50px;
+
+}
+
+.passport-button button{
+
+background:#2563EB;
+
+color:#fff;
+
+padding:18px 45px;
+
+border:none;
+
+border-radius:14px;
+
+font-size:18px;
+
+font-weight:600;
+
+cursor:pointer;
+
+transition:.3s;
+
+}
+
+.passport-button button:hover{
+
+background:#1D4ED8;
+
+transform:translateY(-4px);
+
+}
+
+.passport-button button i{
+
+margin-right:10px;
+
+}
+
+.passport-button p{
+
+margin-top:15px;
+
+color:#2563EB;
+
+font-style:italic;
+
+}
+
