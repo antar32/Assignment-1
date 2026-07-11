@@ -904,3 +904,21 @@ font-style:italic;
 
 }
 
+@media (max-width: 768px) {
+
+    .passport-cards {
+        grid-template-columns: 1fr;
+    }
+
+    .bottom-cards {
+        grid-template-columns: 1fr;
+    }
+
+    .pricing-card {
+        flex-direction: column;
+    }
+
+    nav {
+        flex-direction: column;
+    }
+}

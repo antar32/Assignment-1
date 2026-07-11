@@ -24,7 +24,7 @@ what can i do for the 2nd card
 
 prompt 7:
 
-Complete 3rd,4th and 5th card and complete bottom 2 card
+Complete 3rd, 4th and 5th card and complete bottom 2 card
 
 Prompt 8:
 
