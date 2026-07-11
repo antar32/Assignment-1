@@ -427,7 +427,7 @@ footer h3 {
 
     display:grid;
 
-    grid-template-columns:repeat(auto-fit,minmax(240px,1fr));
+    grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
 
     gap:24px;
 
@@ -661,7 +661,7 @@ border:1px solid #E5E7EB;
 
 border-radius:20px;
 
-padding:35px;
+padding:32px;
 
 box-shadow:0 10px 25px rgba(0,0,0,.05);
 
@@ -854,7 +854,7 @@ line-height:1.5;
 
 text-align:center;
 
-margin-top:50px;
+margin-top:40px;
 
 }
 
